@@ -302,6 +302,8 @@ public class GameFloatWindowMgr {
 		removeBigWindow(context);
 		removeHideWindow(context);
 		removeSmallWindow(context);
+
+		onDestory();
 	}
 
 	/**
